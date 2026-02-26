@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Akan Day Name Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Animated Black Star -->
+<div class="black-star"></div>
+
+<!-- Adinkra Pattern Overlay -->
+<div class="adinkra-overlay"></div>
+
+<div class="card">
+
+    <div class="header">
+        <h1>🇬🇭 Akan Day Name Generator</h1>
+        <p>Discover your traditional Akan day name</p>
+    </div>
+
+    <div class="form-group">
+        <label>Date of Birth</label>
+        <input type="date" id="birthdate">
+    </div>
+
+    <div class="form-group">
+        <label>Gender</label>
+        <select id="gender">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Ethnic Group</label>
+        <select id="group">
+            <option value="">Select Group</option>
+            <option value="Ashanti">Ashanti (Asante)</option>
+            <option value="Fanti">Fanti</option>
+        </select>
+    </div>
+
+    <button id="generateBtn">Generate Name</button>
+
+    <div class="result" id="output"></div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
